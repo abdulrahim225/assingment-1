@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: Azeret Mono;
+}
+a{
+text-decoration: none;
+color: black;
+
+}
+ul{
+list-style-type: none;
+}
+h1, h2, h3, h4, h5{
+font-weight: 700;}
+body{
+    font-family: Azeret Mono;
+}
+
+.container{
+width: 1320px;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+}
+
+.nav-container{
+    display: flex;
+    font-size: 28px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 200px;
+    
+}
+.image-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+
+.nav{
+border: 1px solid;
+border-radius: 8px;
+opacity: 0.8;
+color: rgb(3, 1, 1);
+margin-right: 200px;
+
+}
+/* ata bg ar kaj  */
+.text-container{
+width:920px;
+margin: 0 auto;
+margin-top: 50px;}
+
+.text-item{
+font-size: 48px;
+
+
+}
+.head-container{
+    width: 1320px;
+    height: 652px;
+    margin: auto;
+    background: url(../assets/Hero-bg.png);
+}
+.sub-text{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.text-title{
+padding: 5px;
+border-radius: 8px;
+width: 90px;
+background: rgb(0, 0, 0);
+margin: 0 auto;
+margin-top: 20px;
+color: white;
+}
+
+
+.main-container{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.web{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.wide{
+    margin-top: 20px;
+}
+/* main ar kaj */
+.what{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+
+
+}
+.me{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.who{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    padding: 0px 20px;
+    }
+.second{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+background: rgba(13, 19, 33, 0.02);
+}
+.can{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.we{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.when{
+
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    padding: 0px 20px;
+
+}
+.third{
+    display: flex;
+justify-content: space-between;
+margin-top: 50px;
+background-color: rgba(13, 19, 33, 0.02); 
+}
+.may{
+    color: rgba(13, 19, 33, 0.7);font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left; 
+    
+}
+.my{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.where{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    padding: 0px 20px;
+}
+.forth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgba(13, 19, 33, 0.02); 
+}
+
+/* inspire part */
+.my-inspairation{
+
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 40px;
+}
+.learn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 800px;
+    margin-left: 30px;
+    }
+.logo{
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 450px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 50px 50px;
+
+background: rgba(255, 76, 30, 0.05);
+
+}
+.video{
+    display: flex;
+    justify-content: center;
+    position: static;
+    width: 1050px;
+    height: 550px;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+/* video ar kaj */
+
+/* target ar kaj */
+.abdul-rahim{
+    width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);  
+}
+.ab-text{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.ab-para{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.logo-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 400px;
+    height: 200px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+    
+}
+.logo-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 400px;
+    height: 200px;
+    background: #004CE80D;
+    padding: 30px;
+}
+.logo-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 400px;
+    height: 200px;
+    background:#FFDF000D;
+    padding: 30px;
+}
+.ab-rahim{
+    width: 1320px;
+    margin:  auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02); 
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.angkor-1{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    }
+.angkor-2{
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.angkor-3{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+/* submit ar kaj */
+.boss{
+    width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(241, 242, 245, 0.02);
+    width: 1320px;
+    height: 500px;
+    margin: auto;
+    background: url(../assets/handshake.jpg);
+    margin-bottom: 120px;
+    margin-top: 120px;
+
+
+
+}
+.boss-header{
+    color: rgb(239, 228, 228);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+.boos-sub-title{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 70px;
+}
+.boss-title{
+    box-sizing: border-box;
+    border: 1px solid rgba(120, 186, 219, 0.894);
+    border-radius: 8px;
+    background: rgb(255, 252, 252);
+    width: 450px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+.in-title{
+    border-radius: 5px;
+    background: rgb(179, 80, 80);
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px 20px 10px 10px;
+    width: 90px;
+    height: 50px;
+    margin-top: 250px;
+    margin-right: 150px;
+
+}
+.who-i-am{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+
+}
+.my-name{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer ar kaj */
+.foter-container{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+}
+.icon-container{
+    background: linear-gradient(18deg, rgb(220, 225, 227) -0.911%,rgb(218, 221, 225) 104.264%);
+    margin-right: 235px;
+}
+.foter-text-item{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 245px;
+}
