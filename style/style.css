@@ -32,6 +32,7 @@ background: rgba(13, 19, 33, 0.02);
     margin-top: 20px;
     margin-left: 200px;
     
+    
 }
 .image-r{
     display: flex;
@@ -60,8 +61,11 @@ font-size: 48px;
 
 
 }
+.rahim-container{
+    
+}
 .head-container{
-    width: 1320px;
+    width: 100%;
     height: 652px;
     margin: auto;
     background: url(../assets/Hero-bg.png);
@@ -118,6 +122,7 @@ text-align: center;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 20px;
 }
 .who{
     box-sizing: border-box;
@@ -126,6 +131,7 @@ text-align: center;
     width: 150px;
     height: 48px;
     padding: 0px 20px;
+    margin-top: 20px;
     }
 .second{
 display: flex;
@@ -149,6 +155,7 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 20px;
 }
 .when{
 
@@ -158,6 +165,7 @@ text-align: left;
     width: 150px;
     height: 48px;
     padding: 0px 20px;
+    margin-top: 30px;
 
 }
 .third{
@@ -181,6 +189,7 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 20px;
 }
 .where{
     box-sizing: border-box;
@@ -189,6 +198,7 @@ text-align: left;
     width: 150px;
     height: 48px;
     padding: 0px 20px;
+    margin-top: 30px;
 }
 .forth{
     display: flex;
@@ -327,8 +337,7 @@ background: rgba(255, 76, 30, 0.05);
     height: 500px;
     margin: auto;
     background: url(../assets/handshake.jpg);
-    margin-bottom: 120px;
-    margin-top: 120px;
+    position: relative;
 
 
 
@@ -340,17 +349,32 @@ background: rgba(255, 76, 30, 0.05);
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+    
 
 
 }
-.boos-sub-title{
+.boss-bb{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 50px;
+}
+.boss-sub-title{
     color:#FFFFFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 70px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
 }
 .boss-title{
     box-sizing: border-box;
@@ -398,6 +422,7 @@ background: rgba(255, 76, 30, 0.05);
 .icon-container{
     background: linear-gradient(18deg, rgb(220, 225, 227) -0.911%,rgb(218, 221, 225) 104.264%);
     margin-right: 235px;
+    margin-top: 20px;
 }
 .foter-text-item{
     color: rgb(13, 19, 33);
@@ -407,4 +432,5 @@ background: rgba(255, 76, 30, 0.05);
     letter-spacing: 0%;
     text-align: center;
     margin-left: 245px;
+    margin-top: 20px;
 }
